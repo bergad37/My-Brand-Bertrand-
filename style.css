@@ -1,0 +1,131 @@
+body,h2{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+position: sticky;
+    top: 0;
+    background: rgb(117, 186, 12);
+    color: white;
+    justify-content: space-between;
+z-index: 1;
+    padding: 2rem;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar li{
+    padding: 0 1rem;
+
+}
+.navbar a,.showcase-content a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   
+}
+
+.navbar a:hover{
+    color: yellow;  
+}
+
+/* nav bar css */
+
+#showcase{
+    background: black no-repeat center/cover;
+    height: 100vh;
+    color: white;
+}
+.showcase-content{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+height: 100%;
+align-items: center;
+padding: 0 2rem;
+}
+
+.showcase-content button{
+    margin: 0.5rem;
+    padding: 0.75rem 1.3rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.l-btn{
+    background: rgb(59, 243, 92);
+}
+.h-btn{
+    background: rgb(51, 178, 1) ;
+}
+
+#who{
+    display: flex;
+
+}
+
+#who div{
+    flex: 1; 
+ /* Divide the section into two equal parts,Equal sides in the divs inside who div*/
+}
+
+#who .who-img{
+    background-color: #91919173;
+    justify-content: space-around;
+    padding-top: 15rem;
+}
+
+/* utils  */
+
+.justify-text{
+    text-align: justify;
+ }
+ .justify-text{
+    text-align: justify;
+ }
+ 
+ .bg-primary{
+     background: rgba(11, 153, 0, 0.711);
+     color: aliceblue;
+ }
+ .clr{
+     clear:both ;
+ }
+ 
+.btn-dark{
+    background: rgb(50, 50, 50);
+    color: white;
+}
+
+.py-1{
+    padding: 1.5rem 0;
+}
+
+.py-2{
+    padding: 3rem 0;
+    margin: 2rem 0;
+} 
+.m-heading{
+    color: rgb(29, 155, 1);
+}
+.d-heading{
+    color: black;
+}
+.p-1{
+    padding: 1.5rem;
+}
+
+.rev{
+    flex-direction: row-reverse;
+}
+
+
