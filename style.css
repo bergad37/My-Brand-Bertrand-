@@ -9,7 +9,7 @@ body,h2{
     display: flex;
 position: sticky;
     top: 0;
-    background: rgb(117, 186, 12);
+    background: rgba(129, 220, 55, 0.859);
     color: white;
     justify-content: space-between;
 z-index: 1;
@@ -40,7 +40,6 @@ z-index: 1;
 /* nav bar css */
 
 #showcase{
-    background: black no-repeat center/cover;
     height: 100vh;
     color: white;
 }
@@ -70,26 +69,30 @@ padding: 0 2rem;
 
 #who{
     display: flex;
+    margin:0 2rem;
 
 }
 
 #who div{
-    flex: 1; 
+    flex: 1;
+    margin-top: 5rem; 
  /* Divide the section into two equal parts,Equal sides in the divs inside who div*/
 }
-
-#who .who-img{
-    background-color: #91919173;
+.title{
+    display: flex;
+    justify-content: space-evenly;
+}
+#who .who-img{ 
     justify-content: space-around;
-    padding-top: 15rem;
+}
+#who img{
+    width: 70%;
+    height: 80%;
 }
 
 /* utils  */
 
 .justify-text{
-    text-align: justify;
- }
- .justify-text{
     text-align: justify;
  }
  
@@ -124,8 +127,32 @@ padding: 0 2rem;
     padding: 1.5rem;
 }
 
-.rev{
-    flex-direction: row-reverse;
+#main-footer{
+    display: flex;
+    justify-content: space-evenly;
+    background:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    max-width: 100%;
+    margin-top: 30px;
+    line-height: 1.5;
 }
+.footer>div{
+    margin: 20%;
+  }
+  .row>div,#contact{
+   margin: 20px;
 
-
+  }
+  .col-sm-3{
+    display: flex;
+    flex-direction: column;
+  }
+  .foot>input{
+    border-radius: 1px;
+    background:rgba(112, 112, 112, 0.267);
+    font-family:'Montserrat', sans-serif;
+  }
+.col-sm-3 a{
+    color: rgb(0, 170, 93);
+}
